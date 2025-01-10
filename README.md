@@ -1,6 +1,6 @@
 # my-setup
 [Vim Setup](#vim-setup) | [Oh My Zsh Setup](#oh-my-zsh-setup) 
- | [Powerlevel10K Setup](#powerlevel10k-setup)
+ | [Powerlevel10K Setup](#powerlevel10k-setup) | [Python and Pip](#python-and-pip)
 
 ## Vim Setup
 ```
@@ -46,3 +46,16 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 - Enable transient prompt
 - Verbose instant prompt mode
 - Apply changes to ~/.zshrc
+
+## Python and Pip
+Install a specific python version from the deadsnakes PPA
+```
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python{VERSION_NO}
+```
+Modify ~/.zshrc to find pip
+```
+export PATH="/usr/local/bin:/usr/bin:$PATH"
+```
+
