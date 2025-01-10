@@ -1,6 +1,6 @@
 # my-setup
 [Vim Setup](#vim-setup) | [Oh My Zsh Setup](#oh-my-zsh-setup) 
- | [Powerlevel10K Setup](#powerlevel10k-setup) | [Python and Pip](#python-and-pip)
+ | [Powerlevel10K Setup](#powerlevel10k-setup) | [Python and Pip](#python-and-pip) | [Other Things to Install](#other-things-to-install)
 
 ## Vim Setup
 ```
@@ -65,3 +65,11 @@ Modify ~/.zshrc to find pip
 export PATH="$PATH:/home/{USERNAME}/.local/bin"
 ```
 
+## Other Things to Install
+```
+sudo apt install <THING_TO_INSTALL>
+```
+I install...
+- gcc
+- make
+- terminator
