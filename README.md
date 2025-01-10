@@ -53,9 +53,15 @@ Install a specific python version from the deadsnakes PPA
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 sudo apt install python{VERSION_NO}
+sudo apt-get install python{VERSION_NO}-full
+```
+Install pip for your version
+```
+sudo apt-get install python{VERSION_NO}-dev
+sudo apt-get install python{VERSION_NO}-venv
 ```
 Modify ~/.zshrc to find pip
 ```
-export PATH="/usr/local/bin:/usr/bin:$PATH"
+export PATH="$PATH:/home/{USERNAME}/.local/bin"
 ```
 
