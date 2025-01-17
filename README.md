@@ -73,3 +73,5 @@ I install...
 - gcc
 - make
 - terminator
+- tree
+
